@@ -50,8 +50,8 @@ const AppByHooks = () => {
         ) : (
           <Statistics
             feedbacks={feedbacks}
-            total={this.countTotalFeedback()}
-            positivePercentage={this.countPositiveFeedbackPercentage()}
+            total={countTotalFeedback()}
+            positivePercentage={countPositiveFeedbackPercentage()}
           />
         )}
       </Section>
